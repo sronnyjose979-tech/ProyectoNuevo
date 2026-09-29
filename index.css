@@ -1,0 +1,53 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #333333;
+}
+
+/* Línea superior negra como en la plantilla */
+main {
+    border-top: 2px solid #000000;
+    padding-top: 15px;
+}
+
+/* Nombre del desarrollador */
+h1 {
+    color: #000000;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* Títulos de las secciones en VERDE */
+h2 {
+    color: #16a34a; /* Verde llamativo */
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Subtítulos en AZUL */
+h3 {
+    color: #2563eb; /* Azul llamativo */
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+/* Puesto (Junior Backend Developer) en AZUL */
+main > div:first-child h3:nth-of-type(1) {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Datos de contacto (Ubicación, teléfono, correo) en color normal */
+main > div:first-child h3:nth-of-type(n+2) {
+    color: #333333;
+    font-weight: normal;
+}
+
+/* Enlaces de la sección Across the internet */
+a {
+    display: block;
+    color: #2563eb; /* Enlaces en azul */
+    margin-top: 5px;
+}
